@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        Vbit Converter
+        <label id="num-sys-label" for="number-system">Convert to</label>
+        <select id="number-system">
+            <option value="decimal">Decimal</option>
+            <option value="hexadecimal">HexaDecimal</option>
+            <option value="octal">Octal</option>
+        </select>
+    </div>
+    <div>
+        <span id="bitboard"></span>
+        <span>
+            <div>
+                <button id="set-bit">Set all Bits</button>
+                <button id="reset-bit">Reset all Bits</button>
+            </div>
+            <div  id="output"></div>
+        </span>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+</html>
