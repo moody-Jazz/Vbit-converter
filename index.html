@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vbit Converter</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>
-        Vbit Converter
-        <label id="num-sys-label" for="number-system">Convert to</label>
-        <select id="number-system">
-            <option value="decimal">Decimal</option>
-            <option value="hexadecimal">HexaDecimal</option>
-            <option value="octal">Octal</option>
-        </select>
-    </div>
-    <div>
-        <span id="bitboard"></span>
-        <span>
-            <div>
-                <button id="set-bit">Set all Bits</button>
-                <button id="reset-bit">Reset all Bits</button>
-            </div>
-            <div  id="output"></div>
-        </span>
-    </div>
-    <script src="scrip.js"></script>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Vbit Converter</h1>
+        <div class="controls">
+            <label id="num-sys-label" for="number-system">Convert to:</label>
+            <select id="number-system">
+                <option value="decimal">Decimal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+                <option value="octal">Octal</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Bitboard Grid -->
+        <div id="bitboard"></div>
+
+        <!-- Control Buttons -->
+        <div class="button-group">
+            <button id="set-bit" class="btn">Set All Bits</button>
+            <button id="reset-bit" class="btn">Reset All Bits</button>
+        </div>
+
+        <!-- Output Display -->
+        <div id="output" class="output-display"></div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

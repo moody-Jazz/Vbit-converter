@@ -60,7 +60,7 @@ function toggleBit(btn) {
         btn.classList.remove('active');
         output -= BigInt(2 ** index);
     }
-    outputField.textContent = format(output);t
+    outputField.textContent = format(output);
 }
 
 document.addEventListener('mouseup', () => {
