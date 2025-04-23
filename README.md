@@ -13,20 +13,13 @@ This tool provides an intuitive way to:
 - Instantly convert bit patterns to decimal, hexadecimal, and octal values
 - Simplify development of board game engines and AI
 
-## Usage
-
-### Desktop Controls
-| Action | Effect |
-|--------|--------|
-| Left-click | Set bit (1) |
-| Right-click | Clear bit (0) |
-| Left-click + drag | Set multiple bits |
-| Right-click + drag | Clear multiple bits |
-| Set All/Reset All | Set all the bits to (1/0) |
-
-### Mobile/Touch Devices
-- Tap any bit to set (1)
-- Use "Reset All" button to clear the board
+## Controls
+| Action                    | Effect                              |
+|---------------------------|-------------------------------------|
+| Click or tap              | Toggle individual bit               |
+| Click + drag              | Toggle multiple bits (desktop)      |
+| Tap + drag                | Toggle multiple bits (mobile)       |
+| Set All / Reset All       | Set all bits to 1 or 0              |
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
